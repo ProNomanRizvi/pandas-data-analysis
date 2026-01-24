@@ -1,0 +1,7 @@
+StudentID,Name,Subject,Midterm,Final,Grade
+1001,Alice Green,Math,85,90,A
+1002,Bob White,Math,70,75,B
+1003,Charlie Black,Math,60,65,C
+1001,Alice Green,Science,88,92,A
+1002,Bob White,Science,80,85,B
+1003,Charlie Black,Science,55,60,D
