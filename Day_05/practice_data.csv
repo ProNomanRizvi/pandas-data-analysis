@@ -1,0 +1,16 @@
+Transaction_ID,Date,Customer_Name,Product_Category,Amount_Spent,Rating,Member
+1001,2025-01-01,Alice Smith,Electronics,450.50,5,Yes
+1002,2025-01-02,Bob Jones,Home,,4,No
+1003,,Charlie Brown,Electronics,120.00,3,Yes
+,2025-01-04,Diana Prince,Garden,300.25,,Yes
+1005,2025-01-05,Edward Norton,,15.99,2,No
+1006,2025-01-06,Fiona Gallagher,Electronics,89.00,Unknown,Yes
+1007,2025-01-07,,Home,210.00,5,No
+1008,2025-01-08,George Miller,Garden,,1,Yes
+1009,,Hannah Abbott,Electronics,55.00,4,
+1010,2025-01-10,Ian Wright,Home,0.00,2,No
+1011,2025-01-11,Jane Doe,,125.50,3,Yes
+1012,2025-01-12,Kevin Hart,Electronics,,5,No
+1013,2025-01-13,Laura Palmer,Garden,45.00,,No
+1014,2025-01-14,,Electronics,310.00,4,Yes
+1015,2025-01-15,Mike Ross,Home,99.99,3,Unknown

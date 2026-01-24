@@ -1,0 +1,11 @@
+CustomerID,Name,Age,City,TotalSpend
+101,Alice Smith,29,New York,1200.50
+102,Bob Jones,,Los Angeles,
+103,Charlie Brown,34,,500.00
+104,,22,Chicago,300.25
+105,David Wilson,45,Houston,850.00
+106,Eve Davis,n/a,Phoenix,125.00
+107,Frank Miller,30,New York,
+108,Grace Lee,,Seattle,2100.75
+109,Henry White,?,Boston,
+110,Ivy Green,28,,950.50
