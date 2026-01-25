@@ -1,0 +1,13 @@
+order_id,date,store_region,category,product,sales,quantity,profit
+1,2025-01-01,North,Electronics,Laptop,1200,1,300
+2,2025-01-01,South,Furniture,Chair,150,4,45
+3,2025-01-02,North,Electronics,Mouse,25,10,10
+4,2025-01-03,West,Office Supplies,Pens,10,20,5
+5,2025-01-03,East,Electronics,Laptop,1200,1,300
+6,2025-01-04,South,Electronics,Tablet,400,2,80
+7,2025-01-05,West,Furniture,Table,300,1,60
+8,2025-01-05,North,Office Supplies,Paper,50,5,15
+9,2025-01-06,East,Furniture,Chair,150,2,22
+10,2025-01-07,South,Office Supplies,Pens,10,50,12
+11,2025-01-07,West,Electronics,Laptop,1200,1,300
+12,2025-01-08,North,Electronics,Tablet,400,3,120
