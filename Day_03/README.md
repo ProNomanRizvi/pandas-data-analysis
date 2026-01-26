@@ -1,6 +1,9 @@
-# Day 03: Data Shape, Columns, Selection & Filtering
+# 🔍 Day 03: Data Shape, Columns, Selection & Filtering
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
 
 ## Overview
+
 Day 03 covers fundamental techniques for understanding the structure of your data and selecting/filtering specific subsets. These skills are essential for data exploration and manipulation.
 
 ## Topics Covered
@@ -8,25 +11,28 @@ Day 03 covers fundamental techniques for understanding the structure of your dat
 ### 1. **Shape of Data - `shape` Attribute**
 
 The `shape` attribute returns a tuple with two values:
-- **First value**: Number of rows
-- **Second value**: Number of columns
 
 ```python
-print(f"Shape of Data : {df.shape}")
+print(f"Shape of Data: {df.shape}")
 # Output: (4, 4)  # 4 rows, 4 columns
 ```
+
+- **First value**: Number of rows
+- **Second value**: Number of columns
 
 **Why is this important?**
 - Quick way to understand data dimensions
 - Useful for validating data after filtering or merging
 - Helps detect missing rows or unexpected data changes
 
+---
+
 ### 2. **Column Names - `columns` Attribute**
 
-Access all column names in your DataFrame using:
+Access all column names in your DataFrame:
 
 ```python
-print(f"Columns Name : {df.columns}")
+print(f"Columns Name: {df.columns}")
 # Output: Index(['Name', 'Age', 'Salary', 'Department'], dtype='object')
 ```
 
@@ -59,6 +65,8 @@ customer_names = df.column_name
 **⚠️ Limitations of Dot Notation:**
 - Cannot use if column name contains spaces
 - Cannot use if name conflicts with DataFrame methods (e.g., `count`, `sum`, `mean`)
+
+---
 
 ### **Return a DataFrame (2D)**
 
@@ -137,7 +145,7 @@ not_it = df[~(df["Department"] == "IT")]
 
 ### Example 3: Pakistan Employee Data
 **Sample Data:**
-```
+```python
 Name: ["Ali", "Bilal", "Ramzan", "Fatima", "Moosa"]
 Salary: [20000, 40000, 50000, 20000, 30000]
 Department: ["IT", "HR", "IT", "Finance", "IT"]
@@ -155,6 +163,14 @@ Country: ["Pakistan", "Pakistan", "Pakistan", "Pakistan", "Pakistan"]
 
 ---
 
+## Files in This Directory
+
+- **`day-03-work.ipynb`** — Main Jupyter notebook with all exercises and examples
+- **`PracticeOnRealData.ipynb`** — Additional practice with real datasets
+- **`EmployeeID_Department.csv`** — Sample employee data for practice
+
+---
+
 ## Key Learning Points
 
 ✓ Use `shape` to quickly understand data dimensions  
@@ -167,10 +183,10 @@ Country: ["Pakistan", "Pakistan", "Pakistan", "Pakistan", "Pakistan"]
 
 ---
 
-## Functions & Attributes Used
+## Key Functions & Attributes
 
 | Function/Attribute | Purpose |
-|---|---|
+|-------------------|---------|
 | `df.shape` | Returns tuple (rows, columns) |
 | `df.columns` | Returns all column names |
 | `df['column_name']` | Select single column as Series |
@@ -182,7 +198,7 @@ Country: ["Pakistan", "Pakistan", "Pakistan", "Pakistan", "Pakistan"]
 
 ---
 
-## Practice Exercise
+## Practice Exercises
 
 1. Load your dataset
 2. Print the shape and columns
