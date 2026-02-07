@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Welcome to the **Pandas Data Analysis Journey**! This repository contains a comprehensive 16-day learning path designed to master the Pandas library for data science. From basic I/O operations to advanced data cleaning and merging techniques, this course takes you step-by-step through real-world scenarios.
+Welcome to the **Pandas Data Analysis Journey**! This repository contains a comprehensive 17-day learning path designed to master the Pandas library for data science. From basic I/O operations to advanced data cleaning and merging techniques, this course takes you step-by-step through real-world scenarios.
 
 ## 📚 Course Syllabus
 
@@ -27,6 +27,7 @@ Welcome to the **Pandas Data Analysis Journey**! This repository contains a comp
 | **14** | **Reshaping Data** | `melt()`, Wide vs Long Format | [📂 Day 14](./Day_14) |
 | **15** | **Reshaping Data** | `stack()`, `unstack()`, MultiIndex | [📂 Day 15](./Day_15) |
 | **16** | **Crosstab** | Frequency Tables, Normalization | [📂 Day 16](./Day_16) |
+| **17** | **Practice Exercises** | Pivot, Melt, Crosstab Consolidation | [📂 Day 17](./Day_17) |
 
 ## 🚀 Getting Started
 
